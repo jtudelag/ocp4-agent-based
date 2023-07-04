@@ -24,5 +24,4 @@ networking:
 platform:
   none: {}
 pullSecret: '$PULL_SECRET'
-sshKey: |
-  '$SSH_KEY'
+sshKey: '$SSH_KEY'
