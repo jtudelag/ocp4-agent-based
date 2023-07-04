@@ -10,7 +10,7 @@
        - name: ens4
          macAddress: 7a:61:61:0b:ef:36
       rootDeviceHints:
-        deviceName: /dev/sda
+        minSizeGigabytes: 100
       networkConfig:
         interfaces:
           - name: ens3
