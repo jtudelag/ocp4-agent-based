@@ -1,2 +1,4 @@
 agent/*
+!agent/.gitkeep
 secrets/*
+!secrets/.gitkeep
