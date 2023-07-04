@@ -20,8 +20,6 @@ master0:
   nets:
    - name: ocp4
      mac: da:b8:e4:77:82:00
-   - name: ocp4
-     mac: 7a:61:61:0b:ef:36
   disks:
    - size: 120
   reservedns: false
@@ -36,9 +34,9 @@ test:
   memory: 17000
   nets:
    - name: ocp4
-     mac: da:b8:e4:77:82:00
+     mac: da:b8:e4:99:82:01
    - name: ocp4
-     mac: 7a:61:61:0b:ef:36
+     mac: 7a:41:41:0b:ef:36
    - name: default
   disks:
    - size: 120
