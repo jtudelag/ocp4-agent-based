@@ -2,3 +2,5 @@ agent/*
 !agent/.gitkeep
 secrets/*
 !secrets/.gitkeep
+logs/*
+!logs/.gitkeep
