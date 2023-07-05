@@ -4,3 +4,4 @@ secrets/*
 !secrets/.gitkeep
 logs/*
 !logs/.gitkeep
+.history/*
