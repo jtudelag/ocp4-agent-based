@@ -1,5 +1,11 @@
 #!/bin/bash
 
+set -x
+
+AGENT_CONFIG_FILE="agent-config.yaml"
+#AGENT_CONFIG_FILE="agent-config-one-nic.yaml"
+
+
 rm -rf ./agent/*
 
 # Hidden files, but .gitkeep
@@ -12,7 +18,7 @@ export PULL_SECRET=$(cat ./secrets/pull-secret.txt)
 export SSH_KEY=$(cat ./agent/is_rsa.pub)
 
 envsubst < ./templates/install-config.yaml.template > ./agent/install-config.yaml
-cp ./templates/agent-config-one-nic.yaml ./agent/agent-config.yaml
+cp "./templates/${AGENT_CONFIG_FILE}" ./agent/agent-config.yaml
 
 TIMESTAMP=$(date +"%Y-%m-%d_%H:%M:%S")
 mkdir "logs/$TIMESTAMP"
