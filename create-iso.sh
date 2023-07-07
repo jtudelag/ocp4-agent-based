@@ -19,6 +19,7 @@ export SSH_KEY=$(cat ./agent/is_rsa.pub)
 
 envsubst < ./templates/install-config.yaml.template > ./agent/install-config.yaml
 cp "./templates/${AGENT_CONFIG_FILE}" ./agent/agent-config.yaml
+cp "./templates/partition.yaml" ./agent/partition.yaml
 
 TIMESTAMP=$(date +"%Y-%m-%d_%H:%M:%S")
 mkdir "logs/$TIMESTAMP"
