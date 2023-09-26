@@ -1,0 +1,11 @@
+network:
+  type: plan
+  file: subplans/networks/connected.yaml
+
+bastion:
+  type: plan
+  file: subplans/bastion/bastion.yaml
+
+#sno:
+#  type: plan
+#  file: subplans/sno/sno-bond.yaml

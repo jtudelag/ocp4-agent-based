@@ -1,0 +1,14 @@
+master0:
+  iso: agent.x86_64.iso
+  numcpus: 8
+  memory: 17000
+  nets:
+   - name: ocp4
+     mac: da:b8:e4:77:82:00
+   - name: ocp4
+     mac: 7a:61:61:0b:ef:36
+  disks:
+   - size: 180
+  reservedns: false
+  reservehost: false
+  domain: ocp4.abi.com

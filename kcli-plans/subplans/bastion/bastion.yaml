@@ -1,14 +1,9 @@
-ocp4:
-  type: network
-  cidr: 192.168.70.0/29
-  dhcp: false
-  nat: true
-
 bastion:
   image: fedora38
   numcpus: 4
   memory: 2048
   nets:
+   - name: default
    - name: ocp4
      ip: 192.168.70.5
      mask: 255.255.255.248

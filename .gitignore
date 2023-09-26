@@ -5,3 +5,4 @@ secrets/*
 logs/*
 !logs/.gitkeep
 .history/*
+kcli-plans/subplans/bastion/config.json

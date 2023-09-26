@@ -27,4 +27,4 @@ mkdir "logs/$TIMESTAMP"
 cp ./agent/install-config.yaml "logs/$TIMESTAMP/"
 cp ./agent/agent-config.yaml "logs/$TIMESTAMP/"
 
-openshift-install --dir ./agent/ agent create image
+#openshift-install --dir ./agent/ agent create image
